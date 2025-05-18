@@ -2,6 +2,7 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.png';
+import resume from '../../assets/resume.pdf';
 
 const About = () => {
   return (
@@ -44,8 +45,9 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/16wqz15au-brjuFp9e-J0iVx0tFAL9bM5/view?usp=sharing"
+            href={resume}
             target="_blank"
+            download
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
