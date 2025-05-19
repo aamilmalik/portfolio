@@ -44,9 +44,9 @@ import bcca_logo from "./assets/education_logo/bcca_logo.png";
 import vpsLogo from "./assets/education_logo/vps_logo.png";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
+import propertyView from "./assets/work_logo/propertyView.png";
 import mini from "./assets/work_logo/mini.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
+import propertyListing from "./assets/work_logo/propertyListing.png";
 import taskremLogo from "./assets/work_logo/task_rem.png";
 import npmLogo from "./assets/work_logo/npm.png";
 import webverLogo from "./assets/work_logo/web_dig.png";
@@ -150,7 +150,7 @@ export const projects = [
     title: "Real Estate Search Platform",
     description:
       "Developed and optimized the user interface of an AI-based real estate platform using modern frontend technologies, focusing on responsive design, intuitive navigation, and smart property search features",
-    image: githubdetLogo,
+    image: propertyView,
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "React JS"],
     // github:
     //   "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
@@ -162,9 +162,20 @@ export const projects = [
     description:
       "Developed a secure mini Twitter app with user authentication (JWT), tweet CRUD operations, and like functionality. Built RESTful APIs using Node.js, Express.js, and MongoDB, with a responsive UI using EJS and Tailwind CSS.",
     image: mini,
-    tags: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "React JS", "Node JS", "Express JS", "MongoDB"],
+    tags: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "EJS", "Node JS", "Express JS", "MongoDB"],
     github:
       "https://github.com/aamilmalik/mini-twitter.git",
+    // webapp: "https://www.smartaipropertyfinder.com",
+  },
+  {
+    id: 0,
+    title: "Property Listing App",
+    description:
+      "A full-stack CRUD application where users can add, view, update, and delete property listings. Built with Node.js, Express.js, MongoDB, EJS, Tailwind CSS, and Bootstrap. Implements server-side rendering with a responsive UI.",
+    image: propertyListing,
+    tags: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "EJS", "Node JS", "Express JS", "MongoDB"],
+    github:
+      "https://github.com/aamilmalik/property-listing-app.git",
     // webapp: "https://www.smartaipropertyfinder.com",
   }
 ];
