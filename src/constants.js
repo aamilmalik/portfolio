@@ -45,7 +45,7 @@ import vpsLogo from "./assets/education_logo/vps_logo.png";
 
 // Project Section Logo's
 import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
+import mini from "./assets/work_logo/mini.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
 import taskremLogo from "./assets/work_logo/task_rem.png";
 import npmLogo from "./assets/work_logo/npm.png";
@@ -155,5 +155,16 @@ export const projects = [
     // github:
     //   "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
     webapp: "https://www.smartaipropertyfinder.com",
+  },
+  {
+    id: 0,
+    title: "Mini Twitter",
+    description:
+      "Developed a secure mini Twitter app with user authentication (JWT), tweet CRUD operations, and like functionality. Built RESTful APIs using Node.js, Express.js, and MongoDB, with a responsive UI using EJS and Tailwind CSS.",
+    image: mini,
+    tags: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "React JS", "Node JS", "Express JS", "MongoDB"],
+    github:
+      "https://github.com/aamilmalik/mini-twitter.git",
+    // webapp: "https://www.smartaipropertyfinder.com",
   }
 ];
